@@ -35,9 +35,13 @@ The RPC Ports of the nodes are mapped to your localhost, the addresses are:
 The application uses the web3 javascript API to fetch the data from `geth-dev-node` through RPC calls. The blockchain explorer can be found at [http://localhost:4000](http://localhost:4000).
 
 ## Accounts:
+
 private:
+
 7f0a1b18c35fbc0b365307e74a980d09846532752a714c8c7c9fa66931164e80
+
 public:
+
 0xCa4E4904E2B4E5994406c956843eD7F6B7D931f8
 
 7f0a1b18c35fbc0b365307e74a980d09846532752a714c8c7c9fa66931164e81
