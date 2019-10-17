@@ -25,7 +25,7 @@ RUN geth account import --password ~/.accountpassword  ~/.privatekey
 #ENV bootnodeId=""
 #ENV bootnodeIp=""
 
-CMD exec geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid "6669990001" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpcapi "eth,web3,net,admin,debug,db,txpool" --rpccorsdomain "*" --syncmode="full"
+CMD exec geth --bootnodes "enode://$bootnodeId@$bootnodeIp:30301" --networkid "6669990001" --verbosity=4 --rpc --rpcaddr "0.0.0.0" --rpcapi "personal,eth,web3,net,admin,debug,db,txpool" --allow-insecure-unlock --rpccorsdomain "*" --syncmode="full"
 
 EXPOSE 8545
 EXPOSE 30303
